@@ -8,7 +8,7 @@ The project studies a low field (0.5 T) extremity MRI magnet using commercially 
 - to check the 5 gauss line for safety,
 - and to explore feasibility under a 20 K operating condition with an assumed critical current margin.
 
-The MATLAB scripts in `matlab/` run the coil geometry and field evaluation, call an axisymmetric field solver (`SolB.m`), and use simple optimization (`fmincon`) to search coil-to-coil gaps that improve homogeneity. The poster in `poster/` is the final result.
+The MATLAB scripts in `matlab/` run the coil geometry and field evaluation, call an axisymmetric field solver, `SolB.m` (Request for access - Writer: js3320@ic.ac.uk and Professor Hahn: hahnsy@snu.ac.kr) and use simple optimization (`fmincon`) to search coil-to-coil gaps that improve homogeneity. The poster in `poster/` is the final result.
 
 ## Repository structure
 
